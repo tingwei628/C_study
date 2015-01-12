@@ -1,3 +1,67 @@
+/*題目
+試寫一個簡易 BASIC 編譯器。一個簡易 BASIC 程式碼 [註]包含兩個部分 -- 變數宣告以及執行語句。
+變數宣告一定會出現在程式碼的第一行 (line 0)；當中包含：所有的變數、變數的初始值(所有變數都會有初始值)，
+最後以 "END" 表示宣告結束。下列為一個變數宣告的範例，宣告了八個變數，以及變數各自的初始值：
+
+N = 2 F = 2 ONE = 1 TWO = 2 R = 0 S = 0 ZERO = 0 HUNDRED = 100 END
+[註] BASIC: Beginner's All-purpose Symbolic Instruction Code 初學者的全方位符式指令代碼，可參考維基百科 BASIC
+
+
+除了 line 0 以外，其餘的簡易 BASIC 程式碼都是執行語句，從 line 1 開始，一行 (line) 為一個執行語句。
+共有五種合法的執行語句：
+
+GOTO 會讓執行序跳至某行，並從該行開始執行。
+GOTO 格式為 "GOTO num"，num 為一數字。
+下列範例將會使執行序跳至 line 1
+GOTO 1
+IF 中的判斷句為真時，會讓執行序跳至某行；若判斷句為假，則執行下一行。
+IF 格式為 "var1 op var2"，var1 及 var2 為變數；op 是判斷元，合法的判斷元包括 "=="、"!="、">"、"<"、">=" 及 "<="。
+下列範例中，若 N 大於 HUNDRED，執行序將會跳至 line 11。
+IF N > HUNDRED GOTO 11
+= 會把值指定給變數。
+= 格式為 "var = var1 op var2"，var、var1 及 var2 為變數；op 是運算元，合法的運算元包括 "+"、"-"、"*"、"/" 及 "%"。
+下列範例中，= 將 N 與 ONE 的和指定給變數 N、將 B 與 C 的積指定給變數 A。
+N = N + ONE
+A = B * C
+PRINT 會印出變數的值。
+PRINT格式為 "PRINT var"，var 為一變數。
+下列範例將會印出變數 N 的值。
+PRINT N
+STOP 代表簡易 BASIC 程式碼的結束。
+
+輸入內容
+
+一個簡易 BASIC 程式碼。
+
+輸出內容
+
+執行語句 PRINT 所印出的內容。
+
+參數規範
+
+每行 char 數量 < 150
+總行數 < 50
+
+輸入範例
+
+N = 2 F = 2 ONE = 1 TWO = 2 R = 0 S = 0 ZERO = 0 HUNDRED = 100 END
+IF N > HUNDRED GOTO 11 
+F = TWO + ZERO 
+R = N % F 
+IF R == ZERO GOTO 9 
+F = F + ONE 
+S = F * F 
+IF S <= N GOTO 3 
+PRINT N 
+N = N + ONE 
+GOTO 1 
+STOP
+輸出範例
+
+3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+
+
+*/
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
