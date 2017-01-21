@@ -49,6 +49,8 @@ $make
 ```c
 $make clean
 ```
+##Docs
+- [Usage of Vim](https://github.com/tingwei628/Coursera_NTU_C_HW/wiki/Vim)
 
 ##Reference
 - [How to write a Makefile](http://mropengate.blogspot.tw/2015/06/makefile-makefile.html)
