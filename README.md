@@ -6,10 +6,13 @@
 ###How to compile C ?
 
 ```c
-$gcc -o [obj.file] [source.file] && ./[source.file]
+$gcc -o [obj.file] [source.file]
 
 // example
-$gcc -o mycode source.c ./mycode // it will compile source.c and execute mycode
+$gcc -o mycode source.c // it will compile source.c and execute mycode
+
+// execute a exe
+$./mycode
 
 ```
 >Compiled with C11 (C standard in 2011)
@@ -17,6 +20,14 @@ $gcc -o mycode source.c ./mycode // it will compile source.c and execute mycode
 ```c
 $gcc -std=c11 -o mycode source.c ./mycode
 ```
+
+> Usage of math.h
+```
+$gcc -o mycode source.c -lm
+```
+
+>
+
 ###Makefile
 
 - Make a Makefile
