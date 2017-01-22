@@ -12,6 +12,11 @@ $gcc -o [obj.file] [source.file] && ./[source.file]
 $gcc -o mycode source.c ./mycode // it will compile source.c and execute mycode
 
 ```
+>Compiled with C11 (C standard in 2011)
+
+```c
+$gcc -std=c11 -o mycode source.c ./mycode
+```
 ###Makefile
 
 - Make a Makefile
