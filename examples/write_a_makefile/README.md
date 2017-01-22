@@ -5,6 +5,12 @@
 ```
 $make
 ```
+- Execute!
+
+```
+$./my_exe
+```
+
 - Clean
 
 ```
