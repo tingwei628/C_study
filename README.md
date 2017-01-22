@@ -22,6 +22,7 @@ $gcc -std=c11 -o mycode source.c ./mycode
 ```
 
 > Usage of math.h
+
 ```
 $gcc -o mycode source.c -lm
 ```
@@ -71,6 +72,7 @@ $make clean
 ##Reference
 - [How to write a Makefile](http://mropengate.blogspot.tw/2015/06/makefile-makefile.html)
 - [Makefile in python](http://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html)
+- [GCC howto](http://wiki.ubuntu.org.cn/Gcchowto)
 
 ###題目來源:
   - Coursera_計算機程式設計_by 劉邦鋒 Pangfeng Liu
