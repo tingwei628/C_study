@@ -15,7 +15,7 @@ $gcc -o mycode source.c // it will compile source.c and execute mycode
 $./mycode
 
 ```
->Compiled with C11 (C standard in 2011)
+>Compiled with C11 (C standard released in 2011)
 
 ```c
 $gcc -std=c11 -o mycode source.c ./mycode
