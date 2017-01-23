@@ -15,7 +15,7 @@ $gcc -o mycode source.c // it will compile source.c and execute mycode
 $./mycode
 
 ```
->Compiled with C11 (C standard in 2011)
+>Compiled with C11 (C standard released in 2011)
 
 ```c
 $gcc -std=c11 -o mycode source.c ./mycode
@@ -27,45 +27,8 @@ $gcc -std=c11 -o mycode source.c ./mycode
 $gcc -o mycode source.c -lm
 ```
 
->
+##[Write a Makefile](https://github.com/tingwei628/Coursera_NTU_C_HW/tree/master/examples/write_a_makefile)
 
-###Makefile
-
-- Make a Makefile
-
-Step1:
-
-```c
-$touch Makefile
-```
-Step2
-
-```c
-$vim Makefile
-```
-
-Inside Makefile
-
-```c
-CC = gcc
-all: t.c
-	gcc -o app t.c && ./app
-clean:
-	rm -f app
-
-```
-
-- Execute Makefile
-
-```c
-$make
-```
-
-- Clean app (delete app.exe)
-
-```c
-$make clean
-```
 ##[Docs](https://github.com/tingwei628/Coursera_NTU_C_HW/wiki/)
 It includes questions, terms, and usage of vim...
 
