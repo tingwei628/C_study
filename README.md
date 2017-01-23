@@ -19,7 +19,7 @@ $./mycode
 
 ```c
 $gcc -g -o [exe] [source.file]
-$gdb [exe]
+$sudo gdb [exe]    // run as root
 ```
 
 >Compiled with C11 (C standard released in 2011)
