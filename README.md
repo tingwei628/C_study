@@ -6,7 +6,7 @@
 ###How to compile C ?
 
 ```c
-$gcc -o [obj.file] [source.file]
+$gcc -o [exe] [source.file]
 
 // example
 $gcc -o mycode source.c // it will compile source.c and execute mycode
@@ -15,6 +15,13 @@ $gcc -o mycode source.c // it will compile source.c and execute mycode
 $./mycode
 
 ```
+>Debug with GDB
+
+```c
+$gcc -g -o [exe] [source.file]
+$sudo gdb [exe]    // run as root
+```
+
 >Compiled with C11 (C standard released in 2011)
 
 ```c
