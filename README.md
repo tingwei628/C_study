@@ -45,6 +45,10 @@ It includes questions, terms, and usage of vim...
 - [GCC howto](http://wiki.ubuntu.org.cn/Gcchowto)
 - [C booklist](http://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list)
 
+###Source Code Study
+- Memcached
+- Redis
+
 ###題目來源:
   - Coursera_計算機程式設計_by 劉邦鋒 Pangfeng Liu
   - 由片語學習C語言
