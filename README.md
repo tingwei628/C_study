@@ -35,6 +35,9 @@ $gcc -o mycode source.c -lm
 ```
 
 ## Content
+ - [Coursera_NTU_C_HW](https://github.com/tingwei628/C_study/tree/master/Coursera_NTU_C_HW)
+ - [Examples]()
+
 
 ## [Write a Makefile](https://github.com/tingwei628/Coursera_NTU_C_HW/tree/master/examples/write_a_makefile)
 
