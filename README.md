@@ -1,4 +1,4 @@
-# Coursera_NTU_C_HW
+# C_study
 
 ### Introduction
   - JUST PRACTICE
