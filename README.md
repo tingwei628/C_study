@@ -34,6 +34,8 @@ $gcc -std=c11 -o mycode source.c ./mycode
 $gcc -o mycode source.c -lm
 ```
 
+## Content
+
 ## [Write a Makefile](https://github.com/tingwei628/Coursera_NTU_C_HW/tree/master/examples/write_a_makefile)
 
 ## [Docs](https://github.com/tingwei628/Coursera_NTU_C_HW/wiki/)
@@ -45,10 +47,6 @@ It includes questions, terms, and usage of vim...
 - [Makefile in python](http://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html)
 - [GCC howto](http://wiki.ubuntu.org.cn/Gcchowto)
 - [C booklist](http://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list)
-
-### Source Code Study
-- Memcached
-- Redis
 
 
 ### 參考影片
