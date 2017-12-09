@@ -49,7 +49,6 @@ It includes questions, terms, and usage of vim...
 - [How to write a Makefile](http://mropengate.blogspot.tw/2015/06/makefile-makefile.html)
 - [Makefile in python](http://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html)
 - [GCC howto](http://wiki.ubuntu.org.cn/Gcchowto)
-- [C booklist](http://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list)
 
 
 ### 參考影片
