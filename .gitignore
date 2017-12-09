@@ -3,6 +3,7 @@
 !*/
 !*.c
 !Makefile
+*.o
 
 # except *.c, Makefile under examples
 !examples/*.c
