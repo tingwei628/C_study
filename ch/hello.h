@@ -1,0 +1,1 @@
+const char *hello(const char *name);

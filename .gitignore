@@ -4,6 +4,7 @@
 !*.c
 !Makefile
 *.o
+!*.h
 
 # except *.c, Makefile under examples
 !examples/*.c
