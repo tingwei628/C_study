@@ -1,6 +1,6 @@
 // Recursion
 #include <stdio.h>
-#include "ch14.h"
+#include "../index.h"
 // use recursion to count str len
 
 /*

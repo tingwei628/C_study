@@ -1,6 +1,6 @@
 // 宣告修飾
 #include <stdio.h>
-#include "ch12.h"
+#include "../index.h"
 
 int square(int x)
 {

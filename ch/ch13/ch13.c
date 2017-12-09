@@ -1,6 +1,6 @@
 // bit operation
 #include <stdio.h>
-#include "ch13.h"
+#include "../index.h"
 
 // convert int to binary format
 void tobinary(unsigned int i)

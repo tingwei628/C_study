@@ -1,9 +1,6 @@
 #include <stdio.h>
-//#include "hello.h"
 //#include "math.h"
-//#include "./ch12/ch12.h"
-//#include "./ch13/ch13.h"
-#include "./ch14/ch14.h"
+#include "index.h"
 int main(int argc, char *argv[])
 {
   //printf("math sin(90.0): %f\n", sin(90.0));
@@ -16,6 +13,9 @@ int main(int argc, char *argv[])
   //printbit();
 
   //ch14
-  recurrsion();
+  //recurrsion();
+
+  //ch15
+  structure();
   return 0;
 }
