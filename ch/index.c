@@ -16,6 +16,14 @@ int main(int argc, char *argv[])
   //recurrsion();
 
   //ch15
-  structure();
+  //structure();
+
+  //ch16
+  file();
+  //file1();
+  //file2();
+  //file3();
+  //file4();
+
   return 0;
 }

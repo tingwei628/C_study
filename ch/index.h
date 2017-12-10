@@ -25,3 +25,10 @@ struct mystruct
 };                         // DO NOT FORGET the semicolon for struct
 typedef struct mystruct M; // define struct mystruct as M
 void structure();
+
+//ch16
+void file();
+void file1();
+void file2();
+void file3();
+void file4();
