@@ -32,3 +32,14 @@ void file1();
 void file2();
 void file3();
 void file4();
+
+//ch17
+struct node
+{
+  int num;
+  struct node *next; // struct pointer for next node
+};
+typedef struct node Node;
+
+void linkedlist();
+void sortlinkedlist();

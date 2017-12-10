@@ -19,11 +19,15 @@ int main(int argc, char *argv[])
   //structure();
 
   //ch16
-  file();
+  //file();
   //file1();
   //file2();
   //file3();
   //file4();
+
+  //ch17
+  //linkedlist();
+  sortlinkedlist();
 
   return 0;
 }
