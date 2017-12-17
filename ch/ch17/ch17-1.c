@@ -51,22 +51,59 @@ Node *insert(int data, Node *head)
   }
   return head;
 }
+
+Node *delete (int data, Node *head)
+{
+  if (head == NULL)
+    return head;
+  Node *after = NULL;
+  Node *curr;
+  curr = head;
+  while (curr != NULL)
+  {
+    //prev = curr->next;
+    if (curr->num == data)
+    {
+      if (after == NULL)
+      {
+        head = curr->next;
+      }
+      else
+      {
+        after->next = curr->next;
+      }
+    }
+    else
+    {
+      after = curr;
+    }
+    curr = curr->next;
+  }
+  // give it a new head
+  return head;
+}
 void sortlinkedlist()
 {
   // head cannot be moved
   // the end node of linked list is prefered as NULL
   Node *head = NULL;
-  int a[5] = {2, 5, 1, 3, 4};
+  int a[] = {2, 5, 1, 3, 4};
+  int len = sizeof(a) / sizeof(int);
+  int input;
   /*
     head  prev                    
           [5]->[4]->[3]->[2]->[1]->NULL
   */
   int i = 0;
-  while (i < 5)
+  while (i < len)
   {
     head = insert(a[i], head);
     i++;
   }
+
+  printf("input a number to delete\n");
+  scanf("%d", &input); // do not use %d\n
+  head = delete (3, head);
 
   //print sortlinked list
   for (; head != NULL; head = head->next)

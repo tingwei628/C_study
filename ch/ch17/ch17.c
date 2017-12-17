@@ -45,4 +45,8 @@ void linkedlist()
   {
     printf("num: %d\n", head->num);
   }
+
+  // free, but it would automatically free when it exits the program
+  free(head);
+  free(prev);
 }
