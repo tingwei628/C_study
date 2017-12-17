@@ -103,7 +103,7 @@ void sortlinkedlist()
 
   printf("input a number to delete\n");
   scanf("%d", &input); // do not use %d\n
-  head = delete (3, head);
+  head = delete (input, head);
 
   //print sortlinked list
   for (; head != NULL; head = head->next)
