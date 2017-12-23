@@ -43,3 +43,12 @@ typedef struct node Node;
 
 void linkedlist();
 void sortlinkedlist();
+
+struct treenode
+{
+  int num;
+  struct treenode *right;
+  struct treenode *left;
+};
+typedef struct treenode TreeNode;
+void binarysearchtree();

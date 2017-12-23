@@ -27,7 +27,8 @@ int main(int argc, char *argv[])
 
   //ch17
   //linkedlist();
-  sortlinkedlist();
+  //sortlinkedlist();
+  binarysearchtree();
 
   return 0;
 }
