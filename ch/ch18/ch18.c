@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <string.h>
 #include "../index.h"
 /*
   stack FILO
@@ -35,7 +36,7 @@ void push_stack(Stack *p, Data c)
   p->elements[p->ptr] = c;
   p->ptr++; //next index
 }
-int pop_stack(Stack *p)
+Data pop_stack(Stack *p)
 {
   if (isempty_stack(p))
   {
@@ -68,10 +69,35 @@ int pop_stack(Stack *p)
   }
 //gcc -Wall -std=c11 ./ch/ch18/*.c ./ch/index.c  -o e -DDEBUG=100
 
-void stack()
+void conditioncompile()
 {
 #if DEBUG > 0 // condition compile
   printf("print %d in DEBUG mode\n", DEBUG);
   assert_me(DEBUG == 0);
 #endif
+}
+
+void stack()
+{
+  char str[] = "abccba";
+  int len = strlen(str);
+  int half = len / 2;
+  Stack st;
+  init_stack(&st);
+  for (int i = 0; i < half; i++)
+    push_stack(&st, str[i]);
+
+  int ispalindrome = 1;
+  for (int i = half; i < len; i++)
+  {
+    if (str[i] != pop_stack(&st))
+    {
+      ispalindrome = 0;
+      break;
+    }
+  }
+  if (ispalindrome == 0)
+    printf("it is not palindrome\n");
+  else
+    printf("yes it it palindrome\n");
 }

@@ -63,9 +63,10 @@ typedef struct stack
   Data elements[StackSize]; //for storing element value
 } Stack;
 
+void conditioncompile();
 void stack();
 void init_stack(Stack *p);
 void push_stack(Stack *p, Data c);
-int pop_stack(Stack *p);
+Data pop_stack(Stack *p);
 int isfull_stack(Stack *p);
 int isempty_stack(Stack *p);

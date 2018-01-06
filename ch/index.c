@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
 
   //ch18
   stack();
+  //conditioncompile();
 
   return 0;
 }
