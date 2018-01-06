@@ -66,6 +66,7 @@ int pop_stack(Stack *p)
            #condition, __FILE__, __LINE__);              \
     exit(0);                                             \
   }
+//gcc -Wall -std=c11 ./ch/ch18/*.c ./ch/index.c  -o e -DDEBUG=100
 
 void stack()
 {
