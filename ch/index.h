@@ -52,3 +52,20 @@ struct treenode
 };
 typedef struct treenode TreeNode;
 void binarysearchtree();
+
+#define StackSize 100 //declare stack size is 100
+
+//ch18
+typedef char Data; //for only defined element data type
+typedef struct stack
+{
+  int ptr;                  //index of element
+  Data elements[StackSize]; //for storing element value
+} Stack;
+
+void stack();
+void init_stack(Stack *p);
+void push_stack(Stack *p, Data c);
+int pop_stack(Stack *p);
+int isfull_stack(Stack *p);
+int isempty_stack(Stack *p);
