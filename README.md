@@ -52,9 +52,8 @@ It includes questions, terms, and usage of vim...
 
 ## Reference
 - [「你所不知道的 C 語言」系列講座 @jserv](http://hackfoldr.org/dykc/)
-- [How to write a Makefile](http://mropengate.blogspot.tw/2015/06/makefile-makefile.html)
 - [Makefile in python](http://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html)
-- [GCC howto](http://wiki.ubuntu.org.cn/Gcchowto)
+- [Makefile howto](http://wiki.ubuntu.org.cn/%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%86%99Makefile)
 
 
 ### 參考影片
