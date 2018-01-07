@@ -5,6 +5,8 @@
 !Makefile
 *.o
 !*.h
+!*.json
+
 
 # except *.c, Makefile under examples
 !examples/*.c
