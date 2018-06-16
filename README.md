@@ -50,6 +50,10 @@ It includes questions, terms, and usage of vim...
 
 - [Criterion@Snaipe](https://github.com/Snaipe/Criterion)
 
+### glibc source code online
+
+[glibc](https://code.woboq.org/userspace/glibc/)
+
 ## Reference
 - [「你所不知道的 C 語言」系列講座 @jserv](http://hackfoldr.org/dykc/)
 - [Project-Based-Tutorials-in-C@rby90](https://github.com/rby90/Project-Based-Tutorials-in-C)
