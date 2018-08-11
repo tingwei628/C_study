@@ -39,7 +39,8 @@ $gcc -o mycode source.c -lm
  - [Examples](https://github.com/tingwei628/C_study/tree/master/examples)
 
 
-## [Write a Makefile](https://github.com/tingwei628/Coursera_NTU_C_HW/tree/master/examples/write_a_makefile)
+## [Build](https://github.com/tingwei628/C_study/tree/master/examples/build)
+> Makefile, CMake
 
 ## [Docs](https://github.com/tingwei628/Coursera_NTU_C_HW/wiki/)
 It includes questions, terms, and usage of vim...
