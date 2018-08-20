@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sbvq6p199xe/ctest/modern_c/cmake
+CMAKE_SOURCE_DIR = /Users/sbvq6p199xe/ctest/c/examples/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sbvq6p199xe/ctest/modern_c/cmake
+CMAKE_BINARY_DIR = /Users/sbvq6p199xe/ctest/c/examples/build/cmake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sbvq6p199xe/ctest/modern_c/cmake/CMakeFiles /Users/sbvq6p199xe/ctest/modern_c/cmake/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sbvq6p199xe/ctest/c/examples/build/cmake/CMakeFiles /Users/sbvq6p199xe/ctest/c/examples/build/cmake/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sbvq6p199xe/ctest/modern_c/cmake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sbvq6p199xe/ctest/c/examples/build/cmake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
