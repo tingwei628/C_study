@@ -4,7 +4,13 @@
 #include <assert.h>
 #define MAX_CHARACTERS 1005
 #define MAX_PARAGRAPHS 5
-
+/*
+  1. 同時多個切割字串時, 使用strtok_r
+	2.  struct pointer 的加減 也同其他type pointer 規格
+	例: ((Doc.data)+(k-1));
+	注意: 這是錯的用法 => ((Doc.data) + (k-1) * sizeof(struct paragraph))
+	3. strncpy 複製字串到 char*
+*/
 struct word {
 	char* data;
 };
