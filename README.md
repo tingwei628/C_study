@@ -1,8 +1,5 @@
 # C_study
 
-### Introduction
-  - JUST PRACTICE
-
 ### How to compile C ?
 
 ```c
