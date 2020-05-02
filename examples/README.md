@@ -1,4 +1,4 @@
-- PostgreSQL C Extension
+PostgreSQL C Extension
 
 [writing-postgres-extensions@big-elephants](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/)
 
