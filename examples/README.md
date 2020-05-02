@@ -32,3 +32,7 @@ os
 http parser
 
 https://github.com/nodejs/http-parser
+
+vm
+
+https://justinmeiners.github.io/lc3-vm/index.html
