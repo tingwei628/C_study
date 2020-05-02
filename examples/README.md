@@ -28,3 +28,7 @@ interpreter
 os
 
 [os-tutorial @cfenollosa](https://github.com/cfenollosa/os-tutorial)
+
+http parser
+
+https://github.com/nodejs/http-parser
