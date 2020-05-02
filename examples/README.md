@@ -1,3 +1,10 @@
+> [MIT Open Courses: 6.087](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/labs/)
+
+> [Introduction to C and C++](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/index.htm)
+
+> [Effective Programming in C and C++](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/index.htm)
+
+
 bf-compiler
 
 [bfc@Wilfred](https://github.com/Wilfred/bfc)
