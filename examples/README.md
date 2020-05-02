@@ -25,3 +25,6 @@ interpreter
 
 [write-a-C-interpreter@lotabout](https://github.com/lotabout/write-a-C-interpreter)
 
+os
+
+[os-tutorial @cfenollosa](https://github.com/cfenollosa/os-tutorial)
