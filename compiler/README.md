@@ -1,6 +1,8 @@
 ## Compiler
 
-[AmaCC](https://hackmd.io/@sysprog/c-compiler-construction)
+https://hackmd.io/@sysprog/c-compiler-construction
+
+https://hackmd.io/s/coscup18-source-c-compiler
 
 https://github.com/jserv/shecc
 
