@@ -63,3 +63,34 @@ void change(char *str)
 
 
 ```
+
+`*p++` pointer p會++，但會回傳 "尚未 ++"，再 dereference(*)
+> [Do you know what *p++ does in C?](https://denniskubes.com/2012/08/14/do-you-know-what-p-does-in-c/)
+```c
+// 示範 *p++ 複製字串 
+#include<stdio.h>
+int main(){
+  
+  //Code Here..
+  char p2[] = "abc";
+  char p3[] = "";
+  char *p2i = p2;
+  char *p3i = p3;
+  while((*p3i++ = *p2i++))
+  {
+  }
+
+  char p4[] = "abc";
+  char p5[] = "";
+  char *p4i = p4;
+  char *p5i = p5;
+  int i = 0;
+  while(i<5)
+  {
+    *p5i++ = p4[i];
+    i++;
+  }
+  printf("%s", p5);
+  return 0;
+}
+```
