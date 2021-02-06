@@ -42,3 +42,8 @@ https://github.com/nodejs/http-parser
 vm
 
 https://justinmeiners.github.io/lc3-vm/index.html
+
+CHIP-8
+
+https://github.com/f0lg0/CHIP-8
+
